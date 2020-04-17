@@ -1,5 +1,9 @@
 node {
-      stage('build') {
-            sh 'mvn --version'
+      stage('test'){
+            sh 'echo test'
       }
+      stage('build') {
+            sh 'mvn clean build'
+      }
+      
 }
