@@ -1,1 +1,1 @@
-spring:  application:    name: apigateway  cloud:    config:      uri: http://localhost:8081
+spring:  application:    name: gateway  cloud:    config:      uri: http://localhost:8081
